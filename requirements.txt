@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+gunicorn
+
+asyncpg
+sqlalchemy[asyncio]
+alembic  # Optional, for migrations
+
+psycopg2-binary  # PostgreSQL driver
+
+python-dotenv
